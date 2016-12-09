@@ -1,0 +1,7 @@
+{"paramNames": ["weekday", "vacation"], 
+ "testCases": [{"weekday": false, "vacation": false, "result": true},
+               {"weekday": true, "vacation": false, "result": false},
+			   {"weekday": false, "vacation": true, "result": true},
+			   {"weekday": true, "vacation": true, "result": true}
+		      ]
+}
