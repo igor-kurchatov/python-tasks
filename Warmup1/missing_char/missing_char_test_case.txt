@@ -1,0 +1,13 @@
+{"paramNames": ["str", "n"], 
+ "testCases": [{"str": "kitten", "n": 1, "result": "ktten"},
+               {"str": "kitten", "n": 0, "result": "itten"},
+			   {"str": "kitten", "n": 4, "result": "kittn"},
+			   {"str": "Hi", "n": 0, "result": "i"},
+			   {"str": "Hi", "n": 1, "result": "H"},
+			   {"str": "code", "n": 0, "result": "ode"},
+			   {"str": "code", "n": 1, "result": "cde"},
+			   {"str": "code", "n": 2, "result": "coe"},
+			   {"str": "code", "n": 3, "result": "cod"},
+			   {"str": "chocolate", "n": 8, "result": "chocolat"}
+		      ]
+}
