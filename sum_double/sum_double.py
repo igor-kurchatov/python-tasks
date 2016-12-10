@@ -14,14 +14,14 @@ def sum_double_run():
   
   print("Given two int values, it's returned with the sum. Unless the two values are the same, then the sum will be doubled.")
     
-  inp_first_num = 0.0
-  inp_second_num = 0.0
+  inp_first_num = 0
+  inp_second_num = 0
 
   try:
-    inp_first_num = float(input("Please, enter the first number: "))
-    inp_second_num = float(input("Please, enter the second number: "))
+    inp_first_num = int(input("Please, enter the first number: "))
+    inp_second_num = int(input("Please, enter the second number: "))
   except ValueError as e:
-      print(str(e))
+      print("Please enter valid integer value.\n" + str(e))
       sum_double_run()
       return
 
