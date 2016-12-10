@@ -10,7 +10,7 @@ def monkey_trouble(a_smile, b_smile):
 
 def monkey_trouble_run():
   
-  print("Task 2 - We have two monkeys, a and b, and the parameters a_smile and b_smile indicate if each is smiling.\n" \
+  print("Task 2 - We have two monkeys, a and b, and the parameters a_smile and b_smile indicate if each is smiling.\n"
         "We are in trouble if they are both smiling or if neither of them is smiling. Return True if we are in trouble.")
     
   inp_first_smile = input("Is the first monkey smiling? Please, enter [Y / N]. N is default value]: ")
