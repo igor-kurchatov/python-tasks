@@ -1,7 +1,0 @@
-{"paramNames": ["a_smile", "b_smile"], 
- "testCases": [{"a_smile": true, "b_smile": true, "result": true},
-               {"a_smile": false, "b_smile": false, "result": true},
-			   {"a_smile": true, "b_smile": false, "result": false},
-			   {"a_smile": false, "b_smile": true, "result": false}
-		      ]
-}
