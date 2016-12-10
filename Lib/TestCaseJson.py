@@ -139,7 +139,7 @@ class TestCaseJson(unittest.TestCase):
         
         #test case finishes
         if failedCount == 0:
-            print("Test case completes successfully.")
+            print("Test case completed successfully.")
         else:
             print("Test case failed. {} failure(s) occured.".format(failedCount))     
     
