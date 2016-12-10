@@ -90,7 +90,8 @@ class TestCaseJson(unittest.TestCase):
         args = []               #arguments
         res = None              #result
         strParams = ""          #arguments string 
-        currTestCaseNum = 0     #current test         
+        currTestCaseNum = 0     #current test
+        failedCount = 0         #count of failed test cases
         
         if self.testCases is None:
             print("Test cases is not found.")
@@ -131,12 +132,16 @@ class TestCaseJson(unittest.TestCase):
             except AssertionError as e:
                 #in case of exception just print the formatted text
                 print("Status: " + self._failed + ". " + str(e))
+                failedCount += 1
             else:
                 #in case of success just print the formatted text
                 print("Status: " + self._succeed)
         
         #test case finishes
-        print("Test case completes successfully") 
+        if failedCount == 0:
+            print("Test case completes successfully.")
+        else:
+            print("Test case failed. {} failure(s) occured.".format(failedCount))     
     
     def setUp(self):
         return super().setUp()
@@ -165,7 +170,3 @@ class TestCaseJson(unittest.TestCase):
                 
         #suite = unittest.TestLoader().loadTestsFromName(TestCaseJson.__runTest__, TestCaseJson)
         caseResult = unittest.TextTestRunner(verbosity=2).run(case)
-        
-
-
-
