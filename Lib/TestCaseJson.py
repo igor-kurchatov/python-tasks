@@ -106,7 +106,7 @@ class TestCaseJson(unittest.TestCase):
         #test cases loop
         for v in self.testCases:
            
-            currTestCaseNum = currTestCaseNum + 1
+            currTestCaseNum += 1
             
             #clear the list of arguments
             args.clear()
