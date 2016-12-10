@@ -1,0 +1,12 @@
+{"paramNames": ["a", "b"], 
+ "testCases": [{"a": 9, "b": 10, "result": true},
+               {"a": 9, "b": 9, "result": false},
+			   {"a": 1, "b": 9, "result": true},
+			   {"a": 10, "b": 1, "result": true},
+			   {"a": 10, "b": 10, "result": true},
+			   {"a": 8, "b": 2, "result": true},
+			   {"a": 8, "b": 3, "result": false},
+			   {"a": 10, "b": 42, "result": true},
+			   {"a": 12, "b": -2, "result": true}
+		      ]
+}
