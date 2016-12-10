@@ -1,0 +1,11 @@
+{"paramNames": ["str"], 
+ "testCases": [{"str": "code", "result": "eodc"},
+               {"str": "a", "result": "a"},
+			   {"str": "ab", "result": "ba"},
+			   {"str": "abc", "result": "cba"},
+			   {"str": "", "result": ""},
+			   {"str": "Chocolate", "result": "ehocolatC"},
+			   {"str": "aavJ", "result": "Java"},
+			   {"str": "hello", "result": "oellh"}
+		      ]
+}
