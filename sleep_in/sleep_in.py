@@ -11,7 +11,7 @@ def sleep_in(weekday, vacation):
     return False
 
 def sleep_in_run():
-  print("Can you sleep in?")
+  print("Task 1 - We sleep in if it is not a weekday or we're on vacation. Return True if we sleep in.")
     
   inp_weekday = input("Is it a weekday? Please, enter [Y / N]. N is default value]: ")
   inp_vacation = input("Is it a vacation? Please, enter [Y / N]. N is default value]: ")
