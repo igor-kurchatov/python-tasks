@@ -1,6 +1,6 @@
 #################################
-# Task 1
-# Desription: We sleep in if it is not a weekday or we're on vacation. Return True if we sleep in. Testing the method.
+# Task 1 - testing
+# Desription: We sleep in if it is not a weekday or we're on vacation. Return True if we sleep in.
 # Author : Igor Kurchatov 8/12/2016
 #################################
 
