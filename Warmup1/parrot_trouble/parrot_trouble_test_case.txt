@@ -1,0 +1,13 @@
+{"paramNames": ["talking", "hour"], 
+ "testCases": [{"talking": true, "hour": 6, "result": true},
+               {"talking": true, "hour": 7, "result": false},
+			   {"talking": false, "hour": 6, "result": false},
+			   {"talking": true, "hour": 21, "result": true},
+			   {"talking": false, "hour": 21, "result": false},
+			   {"talking": false, "hour": 20, "result": false},
+			   {"talking": true, "hour": 23, "result": true},
+			   {"talking": false, "hour": 23, "result": false},
+			   {"talking": true, "hour": 20, "result": false},
+			   {"talking": false, "hour": 12, "result": false}
+		      ]
+}

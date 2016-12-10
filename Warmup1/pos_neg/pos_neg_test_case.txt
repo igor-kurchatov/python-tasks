@@ -1,0 +1,22 @@
+{"paramNames": ["a", "b", "negative"], 
+ "testCases": [{"a": 1, "b": -1, "negative": false, "result": true},
+               {"a": -1, "b": 1, "negative": false, "result": true},
+			   {"a": -4, "b": -5, "negative": true, "result": true},
+			   {"a": -4, "b": -5, "negative": false, "result": false},
+			   {"a": -4, "b": 5, "negative": false, "result": true},
+			   {"a": -4, "b": 5, "negative": true, "result": false},
+			   {"a": 1, "b": 1, "negative": false, "result": false},
+			   {"a": -1, "b": -1, "negative": false, "result": false},
+			   {"a": 1, "b": -1, "negative": true, "result": false},
+			   {"a": -1, "b": 1, "negative": true, "result": false},
+			   {"a": 1, "b": 1, "negative": true, "result": false},
+			   {"a": -1, "b": -1, "negative": true, "result": true},
+			   {"a": 5, "b": -5, "negative": false, "result": true},
+			   {"a": -6, "b": 6, "negative": false, "result": true},
+			   {"a": -5, "b": -6, "negative": false, "result": false},
+			   {"a": -2, "b": -1, "negative": false, "result": false},
+			   {"a": 1, "b": 2, "negative": false, "result": false},
+			   {"a": -5, "b": 6, "negative": true, "result": false},
+			   {"a": -5, "b": -5, "negative": true, "result": true}
+		      ]
+}

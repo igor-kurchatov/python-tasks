@@ -1,0 +1,10 @@
+{"paramNames": ["str"], 
+ "testCases": [{"str": "candy", "result": "not candy"},
+               {"str": "x", "result": "not x"},
+			   {"str": "not bad", "result": "not bad"},
+			   {"str": "bad", "result": "not bad"},
+			   {"str": "not", "result": "not"},
+			   {"str": "is not", "result": "not is not"},
+			   {"str": "no", "result": "not no"}
+		      ]
+}
