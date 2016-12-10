@@ -12,7 +12,7 @@ def sum_double(a, b):
 
 def sum_double_run():
   
-  print("Given two int values, it's returned with the sum. Unless the two values are the same, then the sum will be doubled.")
+  print("Task 3 - Given two int values, return their sum. Unless the two values are the same, then return double their sum.")
     
   inp_first_num = 0
   inp_second_num = 0
