@@ -13,8 +13,8 @@ try:
                                 'uid=igor83;pwd=adventure'
                                )
 
-except ConnectionError as e:
-    print(e.strerror)
+except Exception as e:
+    print(e.args)
     sys.exit()
 
 cursor = connection.cursor()
